@@ -21,6 +21,9 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'advanced_relationship_management', '~> 1.0.0'
+```ruby
 
 And then execute:
+```ruby
 bundle install
+```ruby
