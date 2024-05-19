@@ -43,8 +43,7 @@ You can configure the relationships using the configure_relationships method:
 class User < ApplicationRecord
   include AdvancedRelationshipManagement
 
-  parent_column :added_by
-  child_column :id
+  configure_relationships(parent_column: :added_by, child_column: :id)
 end
 ```
 
